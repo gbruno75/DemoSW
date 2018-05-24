@@ -13,11 +13,14 @@ class Calculator
      * @assert (0, 1) == 1
      * @assert (1, 0) == 1
      * @assert (1, 1) == 2
-     * @assert (1, 2) == 4
+     * @assert (1, 2) == 3
      */
-    public function add($a, $b)
+    public function add2($a, $b)
     {
-        return $a + $b;
+        return $a + $b + 1;
     }
+   
+    
+    
 }
 ?>
