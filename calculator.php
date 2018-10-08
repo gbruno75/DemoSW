@@ -17,6 +17,7 @@ class Calculator
      */
     public function add2($a, $b)
     {
+		if ($a && $b)
         return $a + $b + 1;
     }
    
